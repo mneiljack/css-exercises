@@ -1,3 +1,9 @@
+*{
+  /* outline: 1px solid grey; */
+  margin: 0 auto; 
+  box-sizing: border-box;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -24,4 +30,33 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+}
+
+/* Solution is below this */
+
+.card {
+  padding: 8px;
+}
+
+.title {
+  padding: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.content {
+  padding: 16px 8px;
+  margin-bottom: 8px;
+}
+
+.button-container {
+  padding: 8px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  padding: 8px 24px;
+  /* margin: 0 auto; */
+
 }
